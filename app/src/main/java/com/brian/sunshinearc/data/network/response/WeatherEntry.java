@@ -1,10 +1,11 @@
 
-package com.brian.sunshinearc.data.database;
+package com.brian.sunshinearc.entities;
 
-import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class List {
+import java.util.List;
+
+public class WeatherEntry {
 
     @SerializedName("dt")
     public Integer dt;
@@ -15,7 +16,7 @@ public class List {
     @SerializedName("humidity")
     public Double humidity;
     @SerializedName("weather")
-    public java.util.List<Weather> weather = null;
+    public List<Weather> weather = null;
     @SerializedName("speed")
     public Double speed;
     @SerializedName("deg")
