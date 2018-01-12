@@ -1,9 +1,12 @@
 package com.brian.sunshinearc.ui.detail;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class DetailActivity extends AppCompatActivity {
+import com.brian.sunshinearc.R;
+
+import dagger.android.support.DaggerAppCompatActivity;
+
+public class DetailActivity extends DaggerAppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
